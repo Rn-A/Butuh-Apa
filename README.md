@@ -1,20 +1,32 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
-</div>
+# EKONTER - Service HP & Gadget Solutions
 
-# Run and deploy your AI Studio app
+EKONTER adalah platform solusi gadget dan gaya hidup yang melayani berbagai kebutuhan Anda, mulai dari service HP profesional, sewa iPhone, hingga persewaan perlengkapan outdoor.
 
-This contains everything you need to run your app locally.
+## Fitur Utama
 
-View your app in AI Studio: https://ai.studio/apps/f747cca2-6c43-4555-9b43-112614365527
+- **EKONTER Service**: Perbaikan hardware dan software gadget dengan teknisi berpengalaman.
+- **Pinjam iPhone**: Layanan sewa iPhone untuk kebutuhan konten atau harian.
+- **Home Service**: Teknisi datang langsung ke rumah Anda.
+- **Rental Outdoor**: Penyewaan perlengkapan camping dan petualangan.
 
-## Run Locally
+## Pengembangan Lokal
 
-**Prerequisites:**  Node.js
+Untuk menjalankan proyek ini di komputer Anda:
 
+1. Clone repositori ini.
+2. Install dependensi:
+   ```bash
+   npm install
+   ```
+3. Jalankan server pengembangan:
+   ```bash
+   npm run dev
+   ```
 
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+## Teknologi
+
+- React 19
+- Vite
+- Tailwind CSS 4
+- Framer Motion
+- Lucide React
